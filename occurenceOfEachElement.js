@@ -1,4 +1,3 @@
-var arr = [2,3,1,2,38,6,4,0,9]
 
 // let arrLength = arr.length
 
@@ -21,4 +20,8 @@ for(let i =0 ; i<arrLength; i++){
 }
 console.log(count)
 }
+
+var arr = [2,3,1,2,38,6,4,0,9]
+
 occurence(arr)
+
