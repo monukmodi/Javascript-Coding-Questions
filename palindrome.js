@@ -2,9 +2,9 @@
 
 // Solution 1
 
-const s = 'abc'
-var reversedString = s.split("").reverse().join("")
-console.log(reversedString)
+// const s = 'abc'
+// var reversedString = s.split("").reverse().join("")
+// console.log(reversedString)
 
 //  Solution 2
 function isPalindrome(S){
