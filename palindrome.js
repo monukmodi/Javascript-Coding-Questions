@@ -26,3 +26,5 @@ function isPalindrome(S){
     return console.log(true)
 }
 isPalindrome("aba")
+
+// Time Complexity  -- O(N)
