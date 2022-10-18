@@ -9,7 +9,7 @@
 //  Solution 2
 function isPalindrome(S){
 
-    S =S.toLocaleLowerCase().replace(/[\W_]/g,"")
+    S =S.toLocaleLowerCase().replace(/[\W_]/g,"") // Replace all non characters with ""
 
     let left = 0;
     let right = S.length -1
@@ -23,4 +23,4 @@ function isPalindrome(S){
     }
     return console.log(true)
 }
-isPalindrome("A man, a plan, a canal: Panama")
+isPalindrome("aba")
