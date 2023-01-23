@@ -5,7 +5,7 @@
 // Brute Force Solution - ( Checking all possible pairs untill finding the right one )
 
 
-var Arr = [0, 2, -3, 1]
+var Arr = [0, 2, -3, 1,-4]
 var k = -2
 
 function chkPair(Arr,k){
