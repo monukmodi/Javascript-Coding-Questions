@@ -9,22 +9,18 @@
 // console.log(reversedString)
 
 //  Solution 2
-function isPalindrome(S){
+function isPalindrome(str) {
+  let left = 0
+  let right = str.length - 1
 
-    S =S.toLocaleLowerCase().replace(/[\W_]/g,"") // Replace all non characters with ""
-
-    let left = 0;
-    let right = S.length -1
-    
-    while(left < right){
-        if(S[left] !== S[right]){
-            return console.log(false)
-        }
-        left++
-        right--
+  while (left < right) {
+    if (str[left] !== str[right]) {
+      return console.log(false)
     }
-    return console.log(true)
+    left++
+    right--
+  }
+  return console.log(true)
 }
-isPalindrome("aba")
-
-// Time Complexity  -- O(N)
+const str = 'abbac'
+isPalindrome(str)
